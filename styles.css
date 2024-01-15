@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0px;
+}
+
+.title .text {
+  font-family: Barlow, sans-serif;
+  font-size: 46px;
+  color: #1c2022;
+  font-weight: 500;
+}
+
+
+.body .main-content {
+  background-color: transparent;
+  color: rgb(115, 115, 115);
+  font-family: Heebo, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.flex-container {
+  /* height: 100vh; */
+  background-color: rgb(237, 242, 242);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 100px 30px;
+  /* margin: 0 30px; */
+
+
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title .button-icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.6rem;
+  color: rgb(28, 32, 34);
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+}
+
+.icon {
+  border: none;
+  cursor: pointer;
+  transition: background 150ms ease 0s;
+  padding: 18px 18px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+
+}
+
+.icon-1 {
+
+  background-color: #737373;
+}
+
+.icon-2 {
+
+  background-color: #3e54a3;
+
+}
+
+
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.box {
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
+  scroll-snap-align: start;
+  padding: 2.25rem;
+}
+
+.main-content .box .text {
+  background-color: transparent;
+  color: rgb(115, 115, 115);
+  font-family: Heebo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.box-image {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.box-image .title{
+display: flex;
+flex-direction: column;
+}
+
+.box-image .name p{
+background-color: transparent;
+  color: rgb(62, 84, 163);
+  font-family: Heebo, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.name p:nth-child(2){
+  background-color: transparent;
+  color: rgb(115, 115, 115);
+  font-family: Heebo, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.image {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+
+}
